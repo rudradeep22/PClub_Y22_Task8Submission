@@ -1,0 +1,15 @@
+
+{
+    "manifest_version": 3,
+    "version": "1.0.1",
+    "name": "Time Table for IITK",
+    "description": "Display Pingala timetables",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab", "scripting", "notifications", "storage", "alarms"],
+    "background": {
+        "service_worker": "background.js"
+      }
+      
+}
